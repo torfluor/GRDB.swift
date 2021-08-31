@@ -535,6 +535,8 @@
 		56FF455D1D2CDA5200F21EF9 /* RecordUniqueIndexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FF45551D2CDA5200F21EF9 /* RecordUniqueIndexTests.swift */; };
 		6340BF831E5E3F7900832805 /* RecordPersistenceConflictPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6340BF7F1E5E3F7900832805 /* RecordPersistenceConflictPolicy.swift */; };
 		6340BF871E5E3F7900832805 /* RecordPersistenceConflictPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6340BF7F1E5E3F7900832805 /* RecordPersistenceConflictPolicy.swift */; };
+		964318E826D6C22F00BE7F4D /* FTS5CustomAuxFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964318E726D6C22F00BE7F4D /* FTS5CustomAuxFunction.swift */; };
+		964318E926D6C22F00BE7F4D /* FTS5CustomAuxFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964318E726D6C22F00BE7F4D /* FTS5CustomAuxFunction.swift */; };
 		EED476F21CFD17270026A4EC /* GRDBCustomSQLite-USER.h in Headers */ = {isa = PBXBuildFile; fileRef = EED476F11CFD16FF0026A4EC /* GRDBCustomSQLite-USER.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EED476F31CFD172C0026A4EC /* GRDBCustomSQLite-USER.h in Headers */ = {isa = PBXBuildFile; fileRef = EED476F11CFD16FF0026A4EC /* GRDBCustomSQLite-USER.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F3BA800A1CFB286A003DC1BA /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A238701B9C75030082EB20 /* Configuration.swift */; };
@@ -1121,6 +1123,7 @@
 		56FF453F1D2C23BA00F21EF9 /* TableRecordDeleteTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableRecordDeleteTests.swift; sourceTree = "<group>"; };
 		56FF45551D2CDA5200F21EF9 /* RecordUniqueIndexTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordUniqueIndexTests.swift; sourceTree = "<group>"; };
 		6340BF7F1E5E3F7900832805 /* RecordPersistenceConflictPolicy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordPersistenceConflictPolicy.swift; sourceTree = "<group>"; };
+		964318E726D6C22F00BE7F4D /* FTS5CustomAuxFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FTS5CustomAuxFunction.swift; sourceTree = "<group>"; };
 		DC2393C61ABE35F8003FF113 /* GRDB-Bridging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GRDB-Bridging.h"; sourceTree = "<group>"; };
 		DC3773F719C8CBB3004FCF85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC3773F819C8CBB3004FCF85 /* GRDB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GRDB.h; sourceTree = "<group>"; };
@@ -1615,6 +1618,7 @@
 				5671FC1F1DA3CAC9003BF4FF /* FTS3TokenizerDescriptor.swift */,
 				56B9649C1DA51B4C0002DA19 /* FTS5.swift */,
 				5698AD341DABAF4A0056AF8C /* FTS5CustomTokenizer.swift */,
+				964318E726D6C22F00BE7F4D /* FTS5CustomAuxFunction.swift */,
 				56B964B81DA51D0A0002DA19 /* FTS5Pattern.swift */,
 				5698AD151DAAD16F0056AF8C /* FTS5Tokenizer.swift */,
 				56B964B01DA51D010002DA19 /* FTS5TokenizerDescriptor.swift */,
@@ -2370,6 +2374,7 @@
 				56894FE8260658A500268F4D /* Decimal.swift in Sources */,
 				566BE7162342541F00A8254B /* LockedBox.swift in Sources */,
 				F3BA80111CFB2876003DC1BA /* DatabaseSchemaCache.swift in Sources */,
+				964318E926D6C22F00BE7F4D /* FTS5CustomAuxFunction.swift in Sources */,
 				F3BA80281CFB2891003DC1BA /* StandardLibrary.swift in Sources */,
 				F3BA80331CFB28A4003DC1BA /* PersistableRecord.swift in Sources */,
 				5656A8802295BD56001FF3FF /* SQLForeignKeyRequest.swift in Sources */,
@@ -2734,6 +2739,7 @@
 				56894FE3260658A400268F4D /* Decimal.swift in Sources */,
 				566BE7152342541F00A8254B /* LockedBox.swift in Sources */,
 				F3BA806D1CFB2E55003DC1BA /* DatabaseSchemaCache.swift in Sources */,
+				964318E826D6C22F00BE7F4D /* FTS5CustomAuxFunction.swift in Sources */,
 				F3BA80841CFB2E67003DC1BA /* StandardLibrary.swift in Sources */,
 				F3BA808F1CFB2E7A003DC1BA /* PersistableRecord.swift in Sources */,
 				5656A87F2295BD56001FF3FF /* SQLForeignKeyRequest.swift in Sources */,
