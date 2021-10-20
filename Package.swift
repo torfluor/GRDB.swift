@@ -12,7 +12,7 @@ let package = Package(
         .watchOS("2.0"),
     ],
     products: [
-        .library(name: "GRDB", targets: ["GRDB"]),
+        .library(name: "GRDBCustom", targets: ["GRDBCustom"]),
     ],
     dependencies: [
     ],
@@ -21,9 +21,9 @@ let package = Package(
             name: "CSQLite",
             providers: [.apt(["libsqlite3-dev"])]),
         .target(
-            name: "GRDB",
+            name: "GRDBCustom",
             dependencies: ["CustomSQLite"],
-            path: "GRDB"),
+            path: "GRDBCustom"),
         .testTarget(
             name: "GRDBTests",
             dependencies: ["GRDB"],
