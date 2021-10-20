@@ -22,7 +22,7 @@ let package = Package(
             providers: [.apt(["libsqlite3-dev"])]),
         .target(
             name: "GRDB",
-            dependencies: ["CSQLite"],
+            dependencies: ["CustomCSQLite"],
             path: "GRDB"),
         .testTarget(
             name: "GRDBTests",
